@@ -1,9 +1,9 @@
 buildscript {
     ext {
-        setup = [compileSdk: 25,
+        setup = [compileSdk: 24,
                  buildTools: "25.0.2",
-                 minSdk    : 15,
-                 targetSdk : 25]
+                 minSdk    : 16,
+                 targetSdk : 24]
 
         versions = [supportLib: "25.2.0",
                     okio      : "+",
@@ -18,7 +18,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.0'
+        classpath 'com.android.tools.build:gradle:2.3.2'
     }
 }
 

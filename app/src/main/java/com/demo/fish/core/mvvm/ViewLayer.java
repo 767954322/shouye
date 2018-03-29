@@ -8,6 +8,8 @@ import com.demo.fish.core.mvvm.binding.IBinding;
 
 public abstract class ViewLayer<VM extends IBinding, Container> {
 
+
+
     protected Container mContainer;
 
     public ViewLayer(Container container) {
